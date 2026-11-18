@@ -1,0 +1,66 @@
+# Compilación y dependencias
+target/
+node_modules/
+dist/
+build/
+*.class
+*.jar
+*.war
+
+# Bases de datos, cachés y registros
+data/
+logs/
+*.db
+*.db.*
+*.sqlite
+*.sqlite3
+*.log
+*.lock
+.puerto
+.facturaventa/
+
+# Claves, certificados y tickets ARCA
+ARCA_Privado/
+arca-privado/
+*.p12
+*.pfx
+*.key
+*.pem
+*.csr
+*.crt
+*.cer
+*.jks
+*.keystore
+*.enc
+*password*.txt
+*contrasena*.txt
+*contraseña*.txt
+*secret*.txt
+
+# Variables y configuración privada
+.env
+.env.*
+!.env.example
+arca-local.properties
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secrets.properties
+application-secrets.yml
+application-secrets.yaml
+
+# Paquetes de presentación y entrega
+runtime/
+iniciador/
+*.lnk
+*.zip
+*.rar
+
+# IDE y sistema operativo
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
